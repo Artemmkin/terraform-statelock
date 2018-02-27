@@ -57,6 +57,6 @@ Error: Error locking state: Error acquiring the state lock: ConditionalCheckFail
 * Run terraform destroy in the root directory 
 * Remove the state files from the bucket:
 ```
-$ aws s3 rm s3://terraform-state-960 --recursive # use the name of your bucket
+$ aws --region us-east-1 s3 rm s3://terraform-state-960 --recursive # use the name of your bucket
 ```
 * Run terraform destroy in `terraform-required` directory 
