@@ -7,7 +7,7 @@ $ cd ./terraform-required
 $ terraform init
 $ terraform apply
 ```
-2. Grab the name of the bucket created from terraform output. It will be the laste part of ARN.
+2. Grab the name of the bucket created from terraform output. It will be the last part of ARN.
 
 For example, if you got an output like this:
 ```
